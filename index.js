@@ -4,7 +4,7 @@ function kittens() {
   kittens = ["Milo", "Otis", "Garfield"]
 }
 
-function destructivelyAppendKitten(arr, ele) {
-  arr.unshift(ele)
+function destructivelyAppendKitten(array, element) {
+  array.unshift(element)
   return
 }
